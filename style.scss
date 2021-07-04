@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: aliceblue;
+    color: #0f0f0f;
+}
+
+header {
+    height: 100vh;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+
+        padding: 4vh 8vw;
+
+        align-items: center;
+
+        .logo{
+            height: 10vh;
+        }
+        .sections {
+            display: flex;
+            align-items: baseline;
+
+            a {
+                text-decoration: none;
+                color: #0f0f0f;
+
+
+            }
+
+            h3 {
+                font-size: 18px;
+                font-weight: 600;
+                margin-left: 4vw;
+
+                &:hover {
+                    position: relative;
+                    top: -2px;
+                }
+            }
+
+            .fa-shopping-basket {
+                margin-left: 3vw;
+                font-size: 24px;
+
+                &:hover {
+                    position: relative;
+                    top: -2px;
+                }
+            }
+
+            input {
+                margin-left: 4vw;
+                border: none;
+                padding: 2vh 2vw;
+                border-radius: 15px;
+                position: relative;
+                box-shadow: 2px 2px 4px #507cdb41;
+
+            
+                &:focus {
+                    -webkit-appearance: none;
+                    outline: none;
+                    box-shadow: 8px 4px 4px #507cdb41;
+                }
+
+            }
+        }
+
+
+    }
+
+    .main{
+        display: flex;
+        align-items: center;
+
+        padding: 0vh 8vw;
+        padding-bottom: 4vh;
+
+        height: 80vh;
+
+        .main-image{
+            flex: 1;
+            
+
+            img{
+                height: 12vw;
+
+                &:hover{
+                    height: 12.5vw;
+                }
+            }
+
+            .image1{
+                position: absolute;
+                top: 14vw;
+            }
+
+            .image2{
+                position: absolute;
+                top: 22vw;
+                right: 22vw;
+            }
+
+            .image3{
+                position: absolute;
+                top: 34vw;
+                right: 34vw;
+            }
+
+            .image4{
+                position: absolute;
+                top: 34vw;
+                right: 12vw;
+            }
+
+            .image5{
+                position: absolute;
+                top: 12vw;
+                right: 12vw;
+            }
+        }
+
+        .main-text{
+            flex: 1;
+
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: space-between;
+            h1{
+                font-size: 6vw;
+                font-weight: 700;
+            }
+
+            h4{
+                font-size: 1vw;
+                font-weight: 500;
+                color: #1d3e5ecb;
+                margin: 3vh 0;
+            }
+
+            span{
+                font-weight: 300;
+            }
+
+            .creative{
+                background: -webkit-linear-gradient(-250deg,rgb(165, 205, 250), rgb(250, 159, 215));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;            
+                font-weight: 700;
+
+            }
+
+            .btns{
+                display: flex;
+            }
+
+            .btn{
+                display: flex;
+                width: 8vw;
+                height: 6vh;
+                justify-content: center;
+                align-items: center;
+                margin-right: 1vw;
+                margin-top: 2vh;
+                background-color: #46042f;
+                color: rgb(255, 255, 255);
+                border-radius: 15px;
+                font-size: 1vw;
+                &:hover{
+                    background-color: #680c48;
+                    position: relative;
+                    top: -2px;   
+                    left: -2px; 
+                }
+                &:active{
+                    background-color: #941367;
+                }
+            }
+            
+            a{
+                text-decoration: none;
+            }
+
+        }
+
+
+       
+        
+    }
+}
