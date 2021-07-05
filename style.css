@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  height: 100vh;
+  margin-bottom: 2vw;
 }
 
 header .nav {
@@ -20,14 +20,16 @@ header .nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 4vh 8vw;
+  padding: 2.5vw 8vw;
+  font-weight: 300;
+  font-style: normal;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 header .nav .logo {
-  height: 10vh;
+  height: 6vw;
 }
 
 header .nav .sections {
@@ -45,41 +47,41 @@ header .nav .sections a {
 }
 
 header .nav .sections h3 {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 1vw;
   margin-left: 4vw;
 }
 
 header .nav .sections h3:hover {
   position: relative;
-  top: -2px;
+  top: -.05vw;
 }
 
 header .nav .sections .fa-shopping-basket {
   margin-left: 3vw;
-  font-size: 24px;
+  font-size: 1.5vw;
 }
 
 header .nav .sections .fa-shopping-basket:hover {
   position: relative;
-  top: -2px;
+  top: -.05vw;
 }
 
 header .nav .sections input {
+  width: 7vw;
   margin-left: 4vw;
   border: none;
-  padding: 2vh 2vw;
+  padding: 1vw 2vw;
   border-radius: 15px;
   position: relative;
-  -webkit-box-shadow: 2px 2px 4px #507cdb41;
-          box-shadow: 2px 2px 4px #507cdb41;
+  -webkit-box-shadow: .2vw .2vw .4vw #507cdb41;
+          box-shadow: .2vw .2vw .4vw #507cdb41;
 }
 
 header .nav .sections input:focus {
   -webkit-appearance: none;
   outline: none;
-  -webkit-box-shadow: 8px 4px 4px #507cdb41;
-          box-shadow: 8px 4px 4px #507cdb41;
+  -webkit-box-shadow: 0.3vw 0.3vw 0.5vw #507cdb5b;
+          box-shadow: 0.3vw 0.3vw 0.5vw #507cdb5b;
 }
 
 header .main {
@@ -89,9 +91,7 @@ header .main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0vh 8vw;
-  padding-bottom: 4vh;
-  height: 80vh;
+  padding: 0 8vw;
 }
 
 header .main .main-image {
@@ -110,31 +110,32 @@ header .main .main-image img:hover {
 
 header .main .main-image .image1 {
   position: absolute;
-  top: 14vw;
+  top: 17vw;
+  right: 34vw;
 }
 
 header .main .main-image .image2 {
   position: absolute;
-  top: 22vw;
-  right: 22vw;
+  top: 25vw;
+  right: 21vw;
 }
 
 header .main .main-image .image3 {
   position: absolute;
-  top: 34vw;
-  right: 34vw;
+  top: 37vw;
+  right: 31vw;
 }
 
 header .main .main-image .image4 {
   position: absolute;
-  top: 34vw;
-  right: 12vw;
+  top: 37vw;
+  right: 9vw;
 }
 
 header .main .main-image .image5 {
   position: absolute;
-  top: 12vw;
-  right: 12vw;
+  top: 16vw;
+  right: 9vw;
 }
 
 header .main .main-text {
@@ -157,7 +158,7 @@ header .main .main-text {
 }
 
 header .main .main-text h1 {
-  font-size: 6vw;
+  font-size: 5.5vw;
   font-weight: 700;
 }
 
@@ -165,7 +166,7 @@ header .main .main-text h4 {
   font-size: 1vw;
   font-weight: 500;
   color: #1d3e5ecb;
-  margin: 3vh 0;
+  margin: 2vw 0;
 }
 
 header .main .main-text span {
@@ -174,6 +175,7 @@ header .main .main-text span {
 
 header .main .main-text .creative {
   background: -webkit-linear-gradient(-250deg, #a5cdfa, #fa9fd7);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -190,7 +192,7 @@ header .main .main-text .btn {
   display: -ms-flexbox;
   display: flex;
   width: 8vw;
-  height: 6vh;
+  height: 3.5vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -198,7 +200,8 @@ header .main .main-text .btn {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 1vw;
-  margin-top: 2vh;
+  margin-top: .5vw;
+  margin-bottom: 4vw;
   background-color: #46042f;
   color: white;
   border-radius: 15px;
@@ -208,8 +211,8 @@ header .main .main-text .btn {
 header .main .main-text .btn:hover {
   background-color: #680c48;
   position: relative;
-  top: -2px;
-  left: -2px;
+  top: -.05vw;
+  left: -.05vw;
 }
 
 header .main .main-text .btn:active {
@@ -218,5 +221,10 @@ header .main .main-text .btn:active {
 
 header .main .main-text a {
   text-decoration: none;
+}
+
+.details {
+  height: 56vw;
+  background-color: #1674d1;
 }
 /*# sourceMappingURL=style.css.map */
