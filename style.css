@@ -714,4 +714,144 @@ body {
     text-decoration: none;
   }
 }
+
+@media only screen and (max-width: 930px) and (min-width: 600px) {
+  header {
+    padding: 4% 2%;
+  }
+  header .nav {
+    margin: auto;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .nav .logo {
+    max-height: 80px;
+    width: 96vw;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  header .nav .sections {
+    display: none;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+  }
+  header .main {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .main .main-image {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  header .main .main-image img {
+    height: 90px;
+    width: 50vw;
+  }
+  header .main .main-image img:hover {
+    position: relative;
+    top: -5px;
+  }
+  header .main .main-image .imgs1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .main .main-image .imgs2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .main .main-image .imgs3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .main .main-text {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    margin-top: 20px;
+    text-align: center;
+  }
+  header .main .main-text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+  header .main .main-text h4 {
+    font-size: .8rem;
+    font-weight: 500;
+    color: #1d3e5ecb;
+    margin: 5px 0;
+  }
+  header .main .main-text span {
+    font-weight: 300;
+  }
+  header .main .main-text .creative {
+    background: -webkit-linear-gradient(-250deg, #a5cdfa, #fa9fd7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+  }
+  header .main .main-text .btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .main .main-text .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 50px;
+    width: 120px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 15px;
+    background-color: #46042f;
+    color: white;
+    border-radius: 15px;
+    font-size: .8rem;
+  }
+  header .main .main-text .btn:active {
+    background-color: #941367;
+  }
+  header .main .main-text a {
+    text-decoration: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
